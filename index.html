@@ -7,7 +7,7 @@
     <title>Utopic Flowers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
 <body>
     <header>
@@ -44,7 +44,7 @@
                     </i>
                 </p>
             </div>
-            <div class="slider">
+            <div id="slide-gallery" class="slider">
                 <div class="item">
                     <img class="slider-img" src="images/fl1.jpg" alt="flower-1" />
                 </div>
@@ -60,8 +60,8 @@
                 <div class="item">
                     <img class="slider-img" src="images/fl5.jpg" alt="flower-5" />
                 </div>
-                <a class="prev" href="#"> ❮ </a>
-                <a class="next" href="#"> ❯ </a>
+                <a id="btn-left" class="prev" href="#"> ❮ </a>
+                <a id="btn-right" class="next" href="#"> ❯ </a>
             </div>
             <div class="slider-dots">
                 <span class="slider-dots-item active"></span>
@@ -72,6 +72,7 @@
             </div>
         </div>
     </header>
+
 </body>
 
 </html>

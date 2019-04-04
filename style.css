@@ -134,7 +134,7 @@ h3 {
     width: 100%;
     position: relative;
     margin: auto;
-    height: 300px;
+    height: 380px;
 }
 
 .slider .item img {
@@ -188,6 +188,57 @@ h3 {
     background: none;
     border: 3px solid #666666;
     box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+#gallery {
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.gallery-block {
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.wrap-block {
+    width: 33.33%;
+    flex-direction: row;
+    display: flex;
+}
+
+.gallery-block {
+    width: 30%;
+}
+
+.gallery-block img {
+    width: 100%;
+    display: block;
+}
+
+.description-block {
+    width: 70%;
+}
+
+.description-block h2 {
+    display: block;
+    color: rgba(137,74,163,255);
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+.description-block p {
+    color: rgba(102,102,102,255);
+    font-size: 13px;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    line-height: 1.5;
 }
 
 

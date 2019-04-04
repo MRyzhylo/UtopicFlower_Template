@@ -241,4 +241,35 @@ header {
     line-height: 1.5;
 }
 
+#charters {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #ebebea;
+    padding: 40px 0;
+}
 
+.charter-block {
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+    background: white;
+}
+
+.charter-block img {
+    max-width: 260px;
+    max-height: 180px;
+
+}
+
+.charter-block h2 {
+    color: rgba(137,74,163,255);
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.charter-block p {
+    color: rgba(102,102,102,255);
+    font-size: 13px;
+    line-height: 1.5;
+}
